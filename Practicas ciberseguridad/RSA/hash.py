@@ -1,5 +1,4 @@
 import hashlib
-import PyPDF2
 def calcular_hash_archivo(pdf):
     with open(pdf, "rb") as f:
         contenido = f.read()
